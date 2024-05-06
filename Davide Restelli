@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <title>videdadavide</title>
+    <style>
+    .myheader {
+      background-color:rgb(213, 189, 214);
+    }
+    .mybody{
+      background-color:rgb(189, 220, 238);
+    }
+    .myfooter{
+      background-color:rgba(64, 0, 255, 0.208);
+      color: white;
+    }
+
+  </style>
+  </head>
+
+  <body>
+    <div class="myheader">
+      <img alt="Logo" src="https://via.placeholder.com/50x50">
+      <a href="#chisono">Chi sono</a>
+      <a href="#dovesono">Dove sono</a>
+    </div>
+
+    <div class="mybody">
+      <h1 id="chisono">Chi sono</h1>
+      <p>Laureando in Illustrazione e appassionato di conoscenza, sono uno studente dedicato che abbraccia la diversità delle arti e delle sfide intellettuali.
+
+        Con una base solida in Grafica Pubblicitaria e un amore profondo per la scrittura, la cinematografia e la musica, ho coltivato una mente creativa che si alimenta della bellezza delle parole, delle immagini e della musica.
+        
+        Mentre mi avvicino alla laurea, cerco di unire la mia passione per l'arte alla mia determinazione nell'ambito dell'insegnamento. Ho l'obiettivo di diventare un professore ispiratore nei primi anni successivi alla mia laurea, con la missione di trasmettere il mio entusiasmo per la creatività e la conoscenza alle generazioni future.
+        
+        Fuori dall'aula, mi dedico con passione alla creazione di film e canzoni, cercando di condividere storie uniche e coinvolgenti con il mondo. Creo con l'intento di ispirare, informare e, soprattutto, connettere le persone attraverso l'arte.
+        
+        Sono convinto che l'arte e l'istruzione siano strumenti potenti per il cambiamento e l'ispirazione. Sono entusiasta di mettere in pratica questa visione, contribuendo a plasmare il futuro dell'insegnamento e dell'arte, mentre continuo il mio percorso di apprendimento e crescita.
+        
+        Unisciti a me in questo viaggio in cui l'arte e la conoscenza si incontrano per creare un mondo migliore.</p>
+
+      <h1 id="dovesono">Dove sono</h1>
+      <p>Santo Stefano Ticino</p>
+      <img alt="Placeholder" src="https://via.placeholder.com/400x200">
+    </div>
+
+    <div class="myfooter">
+      FOOTER
+    </div>
+
+  </body>
+</html>
+<div class="mybody">
+    <h1 id="Iservizicheoffro">I servizi che offro</h1>
+    <p>Servizi di Illustrazione e Grafica Pubblicitaria: Con competenze che abbracciano la tradizione artistica e le moderne tecniche digitali, sono un professionista in grado di fornire illustrazioni originali, identità visive per brand, materiali pubblicitari e molto altro, con uno stile unico che cattura l'essenza dei progetti dei clienti.
+        Consulenza Creativa e Sviluppo di Contenuti: Grazie alla mia passione per la scrittura e la narrazione, posso offrire servizi di copywriting, storytelling e sviluppo di contenuti per piattaforme diverse, da siti web a campagne pubblicitarie, garantendo messaggi che risuonano con il pubblico target.
+        Produzione Cinematografica e Musicale: Unendo la passione per il cinema e la musica alla competenza tecnica, offre servizi di produzione di film e canzoni, dalla concezione alla realizzazione, con l'obiettivo di creare opere che ispirano e connettono le persone.
+        Educazione e Formazione Artistica: Con l'ambizione di diventare un professore ispiratore, sono disponibile per workshop, lezioni private e seminari su vari aspetti dell'arte, della grafica e della creatività, puntando a nutrire la passione per l'apprendimento nelle generazioni future.
+        Consulenza Strategica per Progetti Artistici: Offro la mia visione e competenza per la pianificazione e lo sviluppo di progetti artistici e culturali, supportando individui e organizzazioni nell'attuare iniziative che promuovono l'arte e l'educazione come strumenti di cambiamento sociale.<p>
