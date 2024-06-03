@@ -6,13 +6,11 @@
     <title>Progetto Esame - Corso di Web Design</title>
 </head>
 <body>
-    <header>
         <h1>Anno Accademico 2023/2024</h1>
         <h2>Matricola 977</h2>
         <h2>Progetto Esame - Corso di Web Design</h2>
         <h3>Professore Matteo Baccan</h3>
-    </header>
-    <section>
+        <section>
         <h1>Descrizione del Progetto</h1>
         <p>Questo sito web è stato realizzato come progetto d'esame per il corso di Web Design.
         Il sito rappresenta una vetrina delle mie competenze, passioni e servizi che offro come laureando in Illustrazione.
