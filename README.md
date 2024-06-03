@@ -12,7 +12,6 @@
         <h2>Progetto Esame - Corso di Web Design</h2>
         <h3>Professore Matteo Baccan</h3>
     </header>
-    
     <section>
         <h1>Descrizione del Progetto</h1>
         <p>Questo sito web è stato realizzato come progetto d'esame per il corso di Web Design.
