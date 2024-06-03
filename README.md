@@ -19,7 +19,9 @@
 
     <section>
         <h1>Utilizzo</h1>
-        <p>Il sito è stato progettato per essere intuitivo e facile da navigare. È possibile esplorare le diverse sezioni utilizzando il menu di navigazione. Ogni sezione offre dettagli sulle mie competenze e servizi, con esempi di lavori e progetti.</p>
+        <p>Il sito è stato progettato per essere intuitivo e facile da navigare.
+        È possibile esplorare le diverse sezioni utilizzando il menu di navigazione.
+        Ogni sezione offre dettagli sulle mie competenze e servizi, con esempi di lavori e progetti.</p>
     </section>
     
 <section>
