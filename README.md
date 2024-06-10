@@ -71,7 +71,7 @@
 
     <section>
         <h1>Test SEO</h1>
-        <p>Yoast SEO: Plugin utilizzato per ottimizzare i contenuti delle pagine e migliorare il posizionamento sui motori di ricerca.</p>
+        <p>Google Search Console: Utilizzato per monitorare il traffico di ricerca e ottimizzare le prestazioni SEO del sito.</p>
     </section>
 
     <section>
@@ -109,7 +109,7 @@
                         <h3>Illustrazione e Grafica Pubblicitaria</h3>
                         <ul>
                             <li>Illustrazioni originali</li>
-                            <li>Identità visive per brand
+                            <li>Identità visive per brand</li>
                             <li>Materiali pubblicitari</li>
                         </ul>
                     </li>
