@@ -49,14 +49,17 @@ body {
 }
 
 .illustration-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .illustration-gallery img {
-    width: 100%;
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
     height: auto;
+    margin-bottom: 20px;
 }
 
 .contacts {
@@ -78,5 +81,9 @@ body {
     .left-aligned-image {
         float: none;
         margin: 0 auto;
+    }
+
+    .illustration-gallery img {
+        width: 100%;
     }
 }
