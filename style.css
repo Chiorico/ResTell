@@ -48,6 +48,20 @@ body {
     clear: both;
 }
 
+.illustration-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.illustration-gallery img {
+    width: calc(50% - 10px);
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .contacts {
     background-color: #f4f4f4;
     padding: 20px;
@@ -67,5 +81,9 @@ body {
     .left-aligned-image {
         float: none;
         margin: 0 auto;
+    }
+
+    .illustration-gallery img {
+        width: 90%;
     }
 }
