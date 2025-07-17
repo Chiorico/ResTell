@@ -1,71 +1,195 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
 .myheader {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
+    background-color: #e74c3c;
     color: #fff;
+    display: flex;
+    align-items: center;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.myheader img.logo {
-    width: 50px;
-    height: 50px;
+.logo {
+    height: 60px;
+    border-radius: 10px;
 }
 
 .myheader a {
     color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 18px;
+    margin: 0 15px;
+    font-size: 1.1em;
 }
 
+/* Main content styles */
 .mybody {
     padding: 20px;
-}
-
-.header-image, .profile-image, .map-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    max-width: 1200px;
     margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.left-aligned-image {
-    float: left;
-    margin-right: 20px;
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
-.map-image {
-    max-width: 50%;
-    clear: both;
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
 }
 
-.contacts {
-    background-color: #f4f4f4;
+h3 {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* Map styles */
+.map-container {
+    margin-top: 20px;
+}
+
+iframe {
+    border: 0;
+    border-radius: 8px;
+}
+
+/* Contact styles */
+.contacts p {
+    font-size: 1.1em;
+}
+
+/* Upload Form Styles */
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="number"],
+.upload-form textarea,
+.upload-form input[type="file"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.upload-form textarea {
+    resize: vertical;
+}
+
+.upload-form button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #c0392b;
+}
+
+/* Shoe Slider Styles */
+.slider-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.shoe-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.shoe-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .myheader {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.shoe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
-    .myheader a {
-        padding: 10px 0;
-    }
+.shoe-price {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #e74c3c;
+}
 
-    .left-aligned-image {
-        float: none;
-        margin: 0 auto;
-    }
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }
