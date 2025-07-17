@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserisci Scarpe - ResTell</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="myheader">
+        <img alt="Logo ResTell" src="Materiali/Logo Restell.jpg" class="logo">
+        <a href="index.html">Home</a>
+        <a href="scarpe.html">Le Nostre Scarpe</a>
+        <a href="inserisci-scarpe.html">Inserisci Scarpe</a>
+        <a href="#contacts">Contatti</a>
+    </div>
+
+    <div class="mybody">
+        <h1>Inserisci Scarpe per la Vendita</h1>
+        <form action="submit-shoes.php" method="post" enctype="multipart/form-data" class="upload-form">
+            <label for="shoe-name">Nome della Scarpa:</label>
+            <input type="text" id="shoe-name" name="shoe_name" required>
+
+            <label for="shoe-brand">Marca:</label>
+            <input type="text" id="shoe-brand" name="shoe_brand" required>
+
+            <label for="shoe-price">Prezzo (€):</label>
+            <input type="number" id="shoe-price" name="shoe_price" step="0.01" required>
+
+            <label for="shoe-description">Descrizione:</label>
+            <textarea id="shoe-description" name="shoe_description" rows="4" required></textarea>
+
+            <label for="shoe-image">Carica Immagine della Scarpa:</label>
+            <input type="file" id="shoe-image" name="shoe_image" accept="image/*" required>
+
+            <button type="submit">Inserisci Scarpa</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
